@@ -1,4 +1,4 @@
- const allowedNames = ["beti", "tyla", "ina"];
+ const allowedNames = ["tyla", "ina"];
     let userName = "";
 
     const loginScreen = document.getElementById("loginScreen");
