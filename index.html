@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="icon" type="image/png" href="/tkthao219-bubududu.gif">
+  <title>Valentine</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div class="screen" id="loginScreen">
+    <h1>Welcome 💖</h1>
+    <input id="nameInput" placeholder="Enter your name" />
+    <button class="btn" id="loginBtn">Continue 💘</button>
+    <div class="error" id="error"></div>
+  </div>
+
+  <!-- VALENTINE -->
+  <div class="app hidden" id="screen1">
+    <button id="noBtn">No 🙄</button>
+    <h1>Will you be my Valentine? 💕</h1>
+    <img id="reactionImg" class="reaction hidden" />
+    <button id="yesBtn">Yes ✨💖</button>
+  </div>
+
+  <!-- RESULT -->
+  <div class="app hidden" id="screen2">
+    <h1>Yayyy 🥰💘</h1>
+    
+    <div id="messages"></div>
+    <img src="/peach-and-goma-peach.gif" class="yes-gif" />
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
